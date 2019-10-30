@@ -1,15 +1,15 @@
 
 /**
- * imprimir los valores pares en un arreglo con for
+ * Imprime los valores en las posiciones pares con for.
  * 
- * @criss_215
+ * @Criss_215
  * @version (a version number or a date)
  */
 import java.util.Scanner;
-public class D4_for
+public class E5_for
 {
-    public static void main(String [] args){
-        Scanner sc=new Scanner(System.in);
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
         //creacion del arreglo
         System.out.println("ingrese el tamano de su arreglo");
         int t=sc.nextInt();
@@ -19,11 +19,9 @@ public class D4_for
             System.out.println("ingrese el valor de su arreglo en la posicion "+i);
             arre[i]=sc.nextInt();
         }
-        //imprimir pares
-        for(int i=0;i<t;i++){
-            if(arre[i]%2==0)
+        //imprimir posiciones pares
+        for(int i=2;i<t;i=i+2)
             System.out.print(arre[i]+" ");
-        }
-            
+        
     }
 }

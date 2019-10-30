@@ -1,29 +1,33 @@
 
 /**
- * imprimir los valores pares en un arreglo con for
+ * imprimir los valores pares en un arreglo con while
  * 
  * @criss_215
  * @version (a version number or a date)
  */
 import java.util.Scanner;
-public class D4_for
+public class D4_while
 {
-    public static void main(String [] args){
+    public static void main(String []args){
         Scanner sc=new Scanner(System.in);
         //creacion del arreglo
         System.out.println("ingrese el tamano de su arreglo");
         int t=sc.nextInt();
         int [] arre=new int[t];
         ///llenado del arreglo
-        for(int i=0;i<t;i++){
+        int i=0;
+        while(i<t){
             System.out.println("ingrese el valor de su arreglo en la posicion "+i);
             arre[i]=sc.nextInt();
+            i++;
         }
         //imprimir pares
-        for(int i=0;i<t;i++){
+        i=0;
+        while(i<t){
             if(arre[i]%2==0)
             System.out.print(arre[i]+" ");
+            i++;
         }
-            
+        
     }
 }
