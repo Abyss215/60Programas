@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=L12_for
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment10.params=ct\ ct2\ ct3
+comment10.target=boolean\ consT1(char,\ char,\ char)
+comment2.params=ct
+comment2.target=boolean\ abr(char)
+comment3.params=ct
+comment3.target=boolean\ cerr(char)
+comment4.params=ct
+comment4.target=boolean\ toni(char)
+comment5.params=ct
+comment5.target=boolean\ ato(char)
+comment6.params=ct
+comment6.target=boolean\ vocal(char)
+comment7.params=ct
+comment7.target=boolean\ cons(char)
+comment8.params=ct\ ct2
+comment8.target=boolean\ imse(char,\ char)
+comment9.params=ct\ ct2
+comment9.target=boolean\ dip(char,\ char)
+numComments=11
