@@ -17,14 +17,14 @@ public class Q17_for
             ,'q','r','s','t','u','v','w','x','y','z'},{'A','B','C','D','E','F','G','H',
             'I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'}};
         for(int i=0;i<cad.length();i++)
-            if((int)cad.charAt(i)>=97&&(int)cad.charAt(i)<=122)
-                for(int x=0;x<26;x++){
+            if((int)cad.charAt(i)>=97&&(int)cad.charAt(i)<=122){
+                for(int x=0;x<26;x++)
                     if(cad.charAt(i)==abc[0][x]){
                         mayus+=abc[1][x];
                         break;
                     }
-                }
-            else
+                
+                }else
                 mayus+=cad.charAt(i);
         System.out.println(mayus);
     }
